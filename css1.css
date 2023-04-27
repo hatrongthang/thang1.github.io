@@ -1,0 +1,105 @@
+.anh{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+ 
+}
+.nav{
+    text-align: center;
+    background: #59dee7;
+    
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    position: relative;
+    
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  /* Hiệu ứng hover cho menu */
+  nav a:hover {
+    background-color: #77def0;
+  }
+
+  /* Drop-down menu */
+  nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 1;
+  }
+
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+
+  nav ul ul li {
+    display: list-item;
+    position: relative;
+  }
+
+  nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+  }
+  .bang1{
+    border: 0px solid;
+    width: 200px;
+    height: 350px;
+    background: white;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  .bang2{
+    border: 0px solid;
+    width: 450px;
+    height: 350px;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+.anh2{
+    width: 90px;
+}
+.bang3{
+    border: 0px solid;
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+body{
+    background: #c5edf0;
+}
+.bang{
+    margin: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+.lienket{
+    padding: 30px;
+    font-size: 30px;
+    
+    
+}
+  
